@@ -1,13 +1,13 @@
-import { Header } from '../components/Header.tsx';
-import { Footer } from '../components/Footer.tsx';
-import { FloatingActions } from '../components/FloatingActions.tsx';
-import { ValuesStrip } from '../components/ValuesStrip.tsx';
+import { Header } from '../components/Header/Header.tsx';
+import { Footer } from '../components/Footer/Footer.tsx';
+import { FloatingActions } from '../components/FloatingActions/FloatingActions.tsx';
+import { ValuesStrip } from '../components/ValuesStrip/ValuesStrip.tsx';
 
-export function SobreNos() {
+export function About() {
   return (
     <div className="app-root">
       <Header />
-      <main className="sobre-nos-page">
+      <main className="about-page">
         <section className="hero" style={{ padding: '100px 0' }}>
           <div className="container">
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '100px', alignItems: 'center' }}>

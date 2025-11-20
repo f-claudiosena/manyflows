@@ -1,4 +1,12 @@
-import type { BenefitsProps } from './Benefits';
+interface Benefit {
+  title: string;
+  icon: string;
+  description: string;
+}
+
+interface BenefitsProps {
+  benefits: Benefit[];
+}
 
 export function Benefits({ benefits }: BenefitsProps) {
   return (

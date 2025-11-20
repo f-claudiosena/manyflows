@@ -1,7 +1,7 @@
-import { Header } from '../components/Header.tsx';
-import { Footer } from '../components/Footer.tsx';
-import { ValuesStrip } from '../components/ValuesStrip.tsx';
-import { FloatingActions } from '../components/FloatingActions.tsx';
+import { Header } from '../components/Header/Header.tsx';
+import { Footer } from '../components/Footer/Footer.tsx';
+import { ValuesStrip } from '../components/ValuesStrip/ValuesStrip.tsx';
+import { FloatingActions } from '../components/FloatingActions/FloatingActions.tsx';
 // Removed unused component imports - homepage uses custom sections instead
 
 export function HomeClean() {

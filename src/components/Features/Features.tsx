@@ -1,4 +1,12 @@
-import type { FeaturesProps } from './Features';
+interface Feature {
+  title: string;
+  image: string;
+  description: string;
+}
+
+interface FeaturesProps {
+  features: Feature[];
+}
 
 export function Features({ features }: FeaturesProps) {
   return (

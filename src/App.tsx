@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home.tsx';
-import { SobreNos } from './pages/SobreNos.tsx';
-import { Contato } from './pages/Contato.tsx';
+import { About } from './pages/About.tsx';
+import { Contact } from './pages/Contact.tsx';
 import { Start } from './pages/Start.tsx';
+import { Solutions } from './pages/Solutions.tsx';
 
 export function App() {
   return (
@@ -10,9 +11,10 @@ export function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<SobreNos />} />
+        <Route path="/solutions" element={<Solutions />} />
+        <Route path="/about" element={<About />} />
         <Route path="/start" element={<Start />} />
-        <Route path="/contato" element={<Contato />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

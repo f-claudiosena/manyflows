@@ -23,12 +23,14 @@ body {
 .container{max-width:var(--container);margin:0 auto;padding:0 20px}
 
 .site-header {
-  border-bottom: 1px solid #f0f0f0;
-  background: #ffffff;
-  position: sticky;
-  top: 0;
+  position: absolute;
+  width: 1532px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 46px -13px rgba(195, 201, 223, 0.25);
   z-index: 40;
-  padding: 12px 0;
 }
 
 .header-grid {
@@ -63,7 +65,7 @@ body {
 }
 
 .nav-link {
-  color: #595d6c;
+  color: #95979E;
   text-decoration: none;
   font-family: 'Albert Sans', sans-serif;
   font-weight: 600;
@@ -71,6 +73,10 @@ body {
   line-height: 1.4;
   transition: color 0.2s ease;
   position: relative;
+}
+
+.nav-link.active {
+  color: #595d6c;
 }
 
 .nav-link:hover {
@@ -261,7 +267,7 @@ body {
 /* --- Homepage specific styles to match the provided screenshot --- */
 .home-hero{padding:80px 40px;background:white}
 .hero-center{display:flex;justify-content:center}
-.home-hero-title{font-size:40px;line-height:1.05;text-align:center;color:#1f2937;max-width:980px;margin:0 auto;padding:48px 0;font-weight:700}
+.home-hero-title{font-size:3.8125rem;line-height:1.05;text-align:center;color:#1f2937;max-width:980px;margin:0 auto;padding:48px 0;font-weight:bold}
 .hero-accent{color:#ff4d7a;margin-left:6px}
 
 .teal-band{background:var(--brand-teal);color:white;padding:56px 0;position:relative;overflow:visible}

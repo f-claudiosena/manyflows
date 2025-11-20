@@ -1,5 +1,8 @@
-# TODO: Add Contato Page with Contact Form
+# TODO: Restructure Project to Clean React with TypeScript
 
-- [x] Create src/pages/Contato.tsx with contact form using Chakra UI
-- [x] Edit src/App.tsx to add import for Contato and new route for /contato
-- [x] Run development server to test the new page
+- [ ] Remove Chakra UI dependencies from package.json
+- [ ] Run npm install to update dependencies
+- [ ] Refactor src/components/HeroTitle/HeroTitle.tsx to remove Chakra UI and use simple JSX with CSS classes
+- [ ] Fix navigation links in src/components/Header/Header.tsx
+- [ ] Refactor src/pages/Contato.tsx to use CSS classes instead of inline styles
+- [ ] Run development server to test the restructured pages

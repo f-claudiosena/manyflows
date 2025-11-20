@@ -4,12 +4,11 @@ export function Footer() {
       <div className="container footer-inner">
         <div className="footer-columns">
           <div className="footer-col">
-            <img src="/logo.svg" alt="ManyFlows" style={{height:36, marginBottom:12}} />
-            <p className="muted">Transformando processos em fluxos eficientes.</p>
+            <img src="/manyflows-footer.svg" alt="ManyFlows Footer" />
           </div>
 
           <div className="footer-col">
-            <h4>Links do site</h4>
+            <h4 style={{marginTop: '1rem'}}>Links do site</h4>
             <ul>
               <li><a href="#">Inicial</a></li>
               <li><a href="#">Sobre Nós</a></li>
@@ -19,7 +18,7 @@ export function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Contatos</h4>
+            <h4 style={{marginTop: '1rem'}}>Contatos</h4>
             <ul className="contacts">
               <li><span className="icon phone" aria-hidden></span><span className="contact-text">(85) 3212-0237</span></li>
               <li><span className="icon mail" aria-hidden></span><span className="contact-text">contato@manyflows.com.br</span></li>
@@ -27,7 +26,7 @@ export function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Institucional</h4>
+            <h4 style={{marginTop: '1rem'}}>Institucional</h4>
             <ul>
               <li>Termos de uso</li>
               <li>Política de privacidade</li>
@@ -39,7 +38,7 @@ export function Footer() {
 
       <div className="footer-bar">
         <div className="container footer-bar-inner">
-          <div className="copyright">ManyFlows © 2025 | Developed by Emolus</div>
+          <div className="copyright">ManyFlows © 2025 | Developed by Emulus</div>
         </div>
       </div>
     </footer>

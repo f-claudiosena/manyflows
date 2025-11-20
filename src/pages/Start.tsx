@@ -1,6 +1,6 @@
-import { Header } from '../components/Header.tsx';
-import { Footer } from '../components/Footer.tsx';
-import { FloatingActions } from '../components/FloatingActions.tsx';
+import { Header } from '../components/Header/Header.tsx';
+import { Footer } from '../components/Footer/Footer.tsx';
+import { FloatingActions } from '../components/FloatingActions/FloatingActions.tsx';
 import { useState } from 'react';
 
 export function Start() {

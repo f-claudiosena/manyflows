@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Header } from '../components/Header.tsx';
-import { Footer } from '../components/Footer.tsx';
-import { FloatingActions } from '../components/FloatingActions.tsx';
+import { Header } from '../components/Header/Header.tsx';
+import { Footer } from '../components/Footer/Footer.tsx';
+import { FloatingActions } from '../components/FloatingActions/FloatingActions.tsx';
 
-export function Contato() {
+export function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -32,12 +32,12 @@ export function Contato() {
     <div className="app-root">
       <Header />
       <main>
-        <section style={{padding: '64px 0'}}>
+        <section className="contact-section">
           <div className="container">
-            <div style={{maxWidth: 720, margin: '0 auto'}}>
-              <div style={{textAlign: 'center', marginBottom: 28}}>
-                <h1 style={{fontSize: 36, marginBottom: 8}}>Entre em Contato</h1>
-                <p className="muted">Tem dúvidas ou sugestões? Entre em contato conosco!</p>
+            <div className="contact-wrapper">
+              <div className="contact-header">
+                <h1 className="contact-title">Entre em Contato</h1>
+                <p className="contact-subtitle">Tem dúvidas ou sugestões? Entre em contato conosco!</p>
               </div>
 
               {submitted && (

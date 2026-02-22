@@ -1,6 +1,5 @@
 # manyflows 🚀
 
-Aplicação web para monitoramento e interação com **pipelines de dados meteorológicos/hidrológicos** (FUNCEME) e ML (LASID).
 
 ## ✨ Features
 - Dashboards interativos com dados em tempo real (React + Chart.js/Recharts)
